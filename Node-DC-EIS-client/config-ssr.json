@@ -14,7 +14,7 @@
     "root_endpoint": "/",
     "no_db": true,
     "get_endpoints": [
-      "count/10000/15"
+      "count/15/4"
     ],
     "http_headers": [
       "User-Agent: Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36"

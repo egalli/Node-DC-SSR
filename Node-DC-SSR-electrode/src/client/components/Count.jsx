@@ -2,15 +2,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import TagCount from './generators/TagCount';
+// import TagCount from './generators/TagCount';
+
+import RecursiveDivs from './generators/RecursiveDivs';
 
 class Count extends React.Component {
 
   render() {
-    const count = this.props.params.count || 5000;
-    const depth = this.props.params.depth || 7;
+    const count = this.props.params.count || 22;
+    const depth = this.props.params.depth || 4;
     return (
-        <TagCount count={parseInt(count, 10)} depth={parseInt(depth, 10)} />
+        <RecursiveDivs breadth={parseInt(count, 10)} depth={parseInt(depth, 10)} />
       );
   }
 }
